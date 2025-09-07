@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft World</title>
+    <style>
+        body {
+            font-family: "Courier New", monospace;
+            background-color: #e0f7fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #2e7d32;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background-color: #a5d6a7;
+            border-radius: 10px;
+        }
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 10px 0;
+        }
+        button {
+            background-color: #2e7d32;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        button:hover {
+            background-color: #1b5e20;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to Minecraft World</h1>
+        <nav>
+            <a href="#news">News</a>
+            <a href="#tips">Tips</a>
+            <a href="#builds">Builds</a>
+        </nav>
+    </header>
+
+    <section id="news">
+        <h2>Minecraft News</h2>
+        <p>Get the latest updates about Minecraft!</p>
+        <button onclick="alert('New update released!')">Check Update</button>
+    </section>
+
+    <section id="tips">
+        <h2>Minecraft Tips</h2>
+        <ul>
+            <li>Always carry a pickaxe!</li>
+            <li>Make a bed before nightfall.</li>
+            <li>Keep food in your inventory.</li>
+        </ul>
+        <button onclick="alert('Tip: Build a safe house for the night!')">Show Tip</button>
+    </section>
+
+    <section id="builds">
+        <h2>Cool Builds</h2>
+        <img src="https://i.imgur.com/6QeS4hT.jpg" alt="Minecraft Castle">
+        <img src="https://i.imgur.com/f6QxJmJ.jpg" alt="Minecraft Farm">
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Minecraft World</p>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            console.log("Welcome to Minecraft World!");
+        });
+    </script>
+
+</body>
+</html>
